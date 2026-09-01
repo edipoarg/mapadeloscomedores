@@ -76,7 +76,6 @@ const DaytimeSky = ({ prestacionAlimentaria, raciones }) => {
       >
         {icon} {/* Always show the icon */}
       </div>
-      {raciones && <div className={styles.raciones}> <h6> Raciones<h6/></h6> {raciones}</div>} {/* Show raciones only if it has a value */}
     </section>
   );
 };
